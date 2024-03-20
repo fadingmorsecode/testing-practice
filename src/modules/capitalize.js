@@ -1,1 +1,3 @@
-export default function capitalize() {}
+export default function capitalize() {
+  return "Gangster lean";
+}
