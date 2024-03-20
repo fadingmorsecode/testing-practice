@@ -1,6 +1,7 @@
 export default function capitalize(input) {
-  if (input === "gangster lean") {
-    return "Gangster lean";
-  }
-  return "Just a dreamer";
+  const firstLetter = input.charAt(0);
+  const rest = input.slice(1);
+  const manipulatedLetter = firstLetter.toUpperCase();
+  const joined = manipulatedLetter + rest;
+  return joined;
 }
