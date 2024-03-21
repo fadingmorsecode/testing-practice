@@ -8,4 +8,9 @@ describe("object that contains functions for the basic operations: add, subtract
     const expected = 50;
     expect(actual).toBe(expected);
   });
+  test("takes two number and performs a subtrqaction to return the correct calculation", () => {
+    const actual = calculator.subtract(input);
+    const expected = 0;
+    expect(actual).toBe(expected);
+  });
 });
