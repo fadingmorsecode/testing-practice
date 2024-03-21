@@ -19,7 +19,7 @@ describe("object that contains functions for the basic operations: add, subtract
     expect(actual).toBe(expected);
   });
   test("takes two numbers and multiplies them together to return the correct calculation", () => {
-    const actual = calculator.multiplpy(input);
+    const actual = calculator.multiply(input);
     const expected = 625;
     expect(actual).toBe(expected);
   });
