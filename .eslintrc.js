@@ -6,11 +6,16 @@ module.exports = {
   extends: ["airbnb-base", "prettier"],
   overrides: [
     {
+      files: ["./src/tests/*"],
       env: {
-        node: true,
         jest: true,
       },
-      files: [".eslintrc.{js,cjs}", "tests/**/*"],
+    },
+    {
+      env: {
+        node: true,
+      },
+      files: [".eslintrc.{js,cjs}"],
       parserOptions: {
         sourceType: "script",
       },

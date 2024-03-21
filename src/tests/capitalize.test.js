@@ -1,4 +1,4 @@
-import capitalize from "../modules/capitalize";
+import capitalize from "../functions/capitalize";
 
 describe("Capitalize Function", () => {
   test("should take a string and return it with the first character capitalized", () => {
