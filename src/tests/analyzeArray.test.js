@@ -19,4 +19,10 @@ describe("takes an array of numbers and returns an object with the following pro
     const expected = 8;
     expect(actual).toEqual(expected);
   });
+  test("object returns length of array", () => {
+    const input = [1, 8, 3, 4, 2, 6];
+    const actual = analyzeArray(input).length;
+    const expected = 6;
+    expect(actual).toEqual(expected);
+  });
 });
