@@ -7,4 +7,10 @@ describe("takes an array of numbers and returns an object with the following pro
     const expected = 4;
     expect(actual).toEqual(expected);
   });
+  test("object returns min from array", () => {
+    const input = [1, 8, 3, 4, 2, 6];
+    const actual = analyzeArray(input).min;
+    const expected = 1;
+    expect(actual).toEqual(expected);
+  });
 });
