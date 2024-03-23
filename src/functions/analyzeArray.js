@@ -14,10 +14,15 @@ function getMax(arr) {
   return Math.max(...arr);
 }
 
+function getLength(arr) {
+  return arr.length;
+}
+
 export default function analyzeArray(arr) {
   const analyzedObj = {};
   analyzedObj.average = getAverage(arr);
   analyzedObj.min = getMin(arr);
   analyzedObj.max = getMax(arr);
+  analyzedObj.length = getLength(arr);
   return analyzedObj;
 }
